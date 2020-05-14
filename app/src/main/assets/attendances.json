@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "curriculum_id": 1,
+    "student_name": "DengFX ddd",
+    "student_number": "334455",
+    "student_class": "水电2022班",
+    "date": "2018-09-06 10:16:34"
+  },
+  {
+    "id": 2,
+    "curriculum_id": 1,
+    "student_name": "DengFX ddd",
+    "student_number": "334455",
+    "student_class": "水电2022班",
+    "date": "2018-09-06 10:16:34"
+  },
+  {
+    "id": 3,
+    "curriculum_id": 1,
+    "student_name": "DengFX ddd",
+    "student_number": "334455",
+    "student_class": "水电2022班",
+    "date": "2018-09-06 10:16:34"
+  },
+  {
+    "id": 4,
+    "curriculum_id": 1,
+    "student_name": "DengFX ddd",
+    "student_number": "334455",
+    "student_class": "水电2022班",
+    "date": "2018-09-06 10:16:34"
+  },
+  {
+    "id": 5,
+    "curriculum_id": 1,
+    "student_name": "DengFX ddd",
+    "student_number": "334455",
+    "student_class": "水电2022班",
+    "date": "2018-09-06 10:16:34"
+  }
+]

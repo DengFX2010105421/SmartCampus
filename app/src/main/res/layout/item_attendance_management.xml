@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="curriculum"
+            type="com.dengfx.smart.db.Curriculum" />
+    </data>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen_10dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:id="@+id/tvCurriculumName"
+            android:text="@{curriculum.name}"
+            android:textSize="12sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:text="@{curriculum.teacherName}"
+            android:id="@+id/tvCurriculumTeacher"
+            android:layout_height="wrap_content"
+            android:textSize="12sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:text="@{curriculum.collegeName}"
+            android:id="@+id/tvCurriculumCollage"
+            android:layout_height="wrap_content"
+            android:textSize="12sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:textSize="12sp"
+            android:text="@{curriculum.location}"
+            android:id="@+id/tvCurriculumAddress"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:text="@{curriculum.date.toLocaleString()}"
+            android:id="@+id/tvCurriculumDate"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+</layout>

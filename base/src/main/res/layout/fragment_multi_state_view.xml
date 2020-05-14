@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.MultiStateViewFragment">
+
+    <data>
+
+        <variable
+            name="viewStatus"
+            type="com.dengfx.base.widget.ViewStatus" />
+
+    </data>
+
+    <com.dengfx.base.widget.MultiStateView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/layout_multi_state_loading" />
+
+        <include layout="@layout/layout_multi_state_failed" />
+
+        <include layout="@layout/layout_multi_state_empty" />
+
+        <!--    <include layout="@layout/layout_multi_state_success" />-->
+
+    </com.dengfx.base.widget.MultiStateView>
+</layout>

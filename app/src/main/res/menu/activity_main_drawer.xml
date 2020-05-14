@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_teaching_management"
+            android:title="@string/teaching_management">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_attendance_management"
+                        android:title="@string/attendance_management" />
+                    <item
+                        android:id="@+id/nav_training_equipment_management"
+                        android:title="@string/training_equipment_management" />
+                    <item
+                        android:id="@+id/nav_library_management"
+                        android:title="@string/library_management" />
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>

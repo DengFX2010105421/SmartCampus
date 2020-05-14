@@ -1,0 +1,30 @@
+[
+  {
+    "student_name": "张三",
+    "student_number": "电信1122",
+    "amount": 10.30,
+    "location": "东园食堂",
+    "date": "2018-09-06 10:16:34"
+  },
+  {
+    "student_name": "张三2",
+    "student_number": "电信1123",
+    "amount": 13.24,
+    "location": "西园食堂",
+    "date": "2018-09-06 10:16:34"
+  },
+  {
+    "student_name": "张的三",
+    "student_number": "电信11322",
+    "amount": 10.340,
+    "location": "东园食堂",
+    "date": "2018-09-06 10:16:34"
+  },
+  {
+    "student_name": "张三42",
+    "student_number": "电信1123",
+    "amount": 134.24,
+    "location": "西园食堂",
+    "date": "2018-09-06 10:16:34"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "equipment_id": 10,
+    "name": "历史概要1",
+    "location": "A区B排1",
+    "status": true,
+    "update_date": "2018-09-06 10:16:34"
+  },
+  {
+    "equipment_id": 10,
+    "name": "历史概要2",
+    "location": "A区B排2",
+    "status": true,
+    "update_date": "2018-09-06 10:16:34"
+  },
+  {
+    "equipment_id": 10,
+    "name": "历史概要3",
+    "location": "A区B排4",
+    "status": true,
+    "update_date": "2018-09-06 10:16:34"
+  },
+  {
+    "equipment_id": 10,
+    "name": "历史概要4",
+    "location": "A区B排6",
+    "status": true,
+    "update_date": "2018-09-06 10:16:34"
+  }
+]

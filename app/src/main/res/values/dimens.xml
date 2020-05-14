@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dimen_0dp">0dp</dimen>
+    <dimen name="dimen_10dp">10dp</dimen>
+
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">8sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">8sp</dimen>
+
+    <dimen name="design_bottom_navigation_active_item_max_width" tools:override="true">168dp</dimen>
+    <dimen name="design_bottom_navigation_active_item_min_width" tools:override="true">96dp</dimen>
+    <dimen name="design_bottom_navigation_elevation" tools:override="true">8dp</dimen>
+    <dimen name="design_bottom_navigation_height" tools:override="true">40dp</dimen>
+    <dimen name="design_bottom_navigation_icon_size" tools:override="true">14dp</dimen>
+    <dimen name="design_bottom_navigation_item_max_width" tools:override="true">96dp</dimen>
+    <dimen name="design_bottom_navigation_item_min_width" tools:override="true">56dp</dimen>
+    <dimen name="design_bottom_navigation_margin" tools:override="true">6dp</dimen>
+    <dimen name="design_bottom_navigation_shadow_height" tools:override="true">1dp</dimen>
+</resources>

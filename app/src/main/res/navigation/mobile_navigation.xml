@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_attendance_management">
+
+    <fragment
+        android:id="@+id/nav_attendance_management"
+        android:name="com.dengfx.smart.ui.AttendanceManagementFragment"
+        android:label="@string/attendance_management"
+        tools:layout="@layout/fragment_attendance_management">
+        <action
+            android:id="@+id/action_nav_attendance_management_to_nav_attendance_detail"
+            app:destination="@id/nav_attendance_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_training_equipment_management"
+        android:name="com.dengfx.smart.ui.TrainingEquipmentManagementFragment"
+        android:label="@string/training_equipment_management"
+        tools:layout="@layout/fragment_training_equipment_management">
+        <action
+            android:id="@+id/action_nav_training_equipment_management_to_nav_operate_equipment"
+            app:destination="@id/nav_operate_equipment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_library_management"
+        android:name="com.dengfx.smart.ui.LibraryManagementFragment"
+        android:label="@string/library_management"
+        tools:layout="@layout/fragment_library_management">
+        <action
+            android:id="@+id/action_nav_library_management_to_nav_library_detail"
+            app:destination="@id/nav_library_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_campus_map"
+        android:name="com.dengfx.smart.ui.CampusMapFragment"
+        android:label="@string/campus_map"
+        tools:layout="@layout/fragment_campus_map" />
+
+    <fragment
+        android:id="@+id/nav_campus_security"
+        android:name="com.dengfx.smart.ui.CampusSecurityFragment"
+        android:label="@string/campus_security"
+        tools:layout="@layout/fragment_campus_security" />
+
+    <fragment
+        android:id="@+id/nav_consumption_query"
+        android:name="com.dengfx.smart.ui.ConsumptionQueryFragment"
+        android:label="@string/consumption_query"
+        tools:layout="@layout/fragment_consumption_query" />
+
+    <fragment
+        android:id="@+id/nav_attendance_detail"
+        android:name="com.dengfx.smart.ui.AttendanceDetailFragment"
+        android:label="@string/attendance_detail"
+        tools:layout="@layout/fragment_attendance_detail">
+        <argument
+            android:name="curriculum"
+            app:argType="com.dengfx.smart.db.Curriculum"
+            app:nullable="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_operate_equipment"
+        android:name="com.dengfx.smart.ui.OperateEquipmentFragment"
+        android:label="@string/operate_equipment"
+        tools:layout="@layout/fragment_operate_equipment">
+        <argument
+            android:name="equipment"
+            android:defaultValue="@null"
+            app:argType="com.dengfx.smart.db.Equipment"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_library_detail"
+        android:name="com.dengfx.smart.ui.LibraryDetailFragment"
+        android:label="@string/library_detail"
+        tools:layout="@layout/fragment_library_detail">
+        <argument
+            android:name="equipment"
+            app:argType="com.dengfx.smart.db.Equipment" />
+    </fragment>
+
+
+</navigation>

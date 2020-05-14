@@ -1,0 +1,3 @@
+rootProject.name='SmartCampus'
+include ':app'
+include ':base'

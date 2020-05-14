@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">智慧校园</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="teaching_management">教学管理</string>
+    <string name="attendance_management">考勤管理</string>
+    <string name="attendance_detail">考勤列表</string>
+    <string name="training_equipment_management">实训器材管理</string>
+    <string name="library_management">图书馆管理</string>
+    <string name="campus_management">校园管理</string>
+    <string name="campus_map">校园地图</string>
+    <string name="campus_security">校园安防</string>
+    <string name="application_service">应用服务</string>
+    <string name="consumption_query">消费查询</string>
+    <string name="operate_equipment">添加设备</string>
+    <string name="library_detail">图书管理</string>
+</resources>

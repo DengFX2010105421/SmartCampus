@@ -1,0 +1,124 @@
+[
+  {
+    "name": "物理器材",
+    "number": "101",
+    "ip": "192.168.10.3",
+    "status": true,
+    "person_in_charge": "邓肯",
+    "phone_number": "1002000"
+  },
+  {
+    "name": "化学器材",
+    "number": "101",
+    "ip": "192.168.10.4",
+    "status": true,
+    "person_in_charge": "邓肯",
+    "phone_number": "1002000"
+  },
+  {
+    "name": "物理器材",
+    "number": "101",
+    "ip": "192.168.10.3",
+    "status": true,
+    "person_in_charge": "邓肯",
+    "phone_number": "1002000"
+  },
+  {
+    "name": "化学器材",
+    "number": "101",
+    "ip": "192.168.10.4",
+    "status": true,
+    "person_in_charge": "邓肯",
+    "phone_number": "1002000"
+  },
+  {
+    "name": "物理器材",
+    "number": "101",
+    "ip": "192.168.10.3",
+    "status": true,
+    "person_in_charge": "邓肯",
+    "phone_number": "1002000"
+  },
+  {
+    "name": "化学器材",
+    "number": "101",
+    "ip": "192.168.10.4",
+    "status": true,
+    "person_in_charge": "邓肯",
+    "phone_number": "1002000"
+  },
+  {
+    "name": "物理器材",
+    "number": "101",
+    "ip": "192.168.10.3",
+    "status": true,
+    "person_in_charge": "邓肯",
+    "phone_number": "1002000"
+  },
+  {
+    "name": "化学器材",
+    "number": "101",
+    "ip": "192.168.10.4",
+    "status": true,
+    "person_in_charge": "邓肯",
+    "phone_number": "1002000"
+  },
+  {
+    "name": "图一楼",
+    "number": "101",
+    "ip": "192.168.10.4",
+    "status": true,
+    "person_in_charge": "邓肯",
+    "phone_number": "1002000",
+    "type": 1
+  },
+  {
+    "name": "图二楼",
+    "number": "101",
+    "ip": "192.168.10.4",
+    "status": true,
+    "person_in_charge": "邓肯",
+    "phone_number": "1002000",
+    "type": 2
+  },
+  {
+    "name": "南门相机1",
+    "number": "101",
+    "ip": "192.168.10.4",
+    "status": true,
+    "location": "南门",
+    "person_in_charge": "邓肯",
+    "phone_number": "1002000",
+    "type": 2
+  },
+  {
+    "name": "北门相机1",
+    "number": "101",
+    "ip": "192.168.10.4",
+    "status": true,
+    "location": "北门",
+    "person_in_charge": "邓肯",
+    "phone_number": "1002000",
+    "type": 2
+  },
+  {
+    "name": "南门相机2",
+    "number": "101",
+    "ip": "192.168.10.4",
+    "status": true,
+    "location": "南门",
+    "person_in_charge": "邓肯",
+    "phone_number": "1002000",
+    "type": 2
+  },
+  {
+    "name": "北门相机2",
+    "number": "101",
+    "ip": "192.168.10.4",
+    "status": true,
+    "location": "北门",
+    "person_in_charge": "邓肯",
+    "phone_number": "1002000",
+    "type": 2
+  }
+]
